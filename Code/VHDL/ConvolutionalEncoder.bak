@@ -1,0 +1,56 @@
+-------------------------------------- 
+-- Convolutional Encoder
+--------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+-------------------------------------- 
+-- Rising Edge Flip Flop
+--------------------------------------
+entity DFlipFlop is
+   port( D, Clk: in std_logic;
+         Q, Qbar : OUT std_logic);
+end DFlipFlop;
+
+architecture dff_behav of DFlipFlop is
+   begin
+      process(Clk) --We only care about Clk
+         begin
+            if (Clk'event) and (Clk='1') then -- Positive Edge
+               Q <= D;
+               Qbar <= not D;
+        end if;
+  end process;
+end dff_behav;
+
+
+entity CEncoder is
+    port(input : in std_logic;
+         out :out std_logic_vector (1 downto 0)
+         );
+end CEncoder       
+
+architecture CEncoder_behav of CEncoder is 
+   signal DF1_out: std_logic;
+   signal DF2_out: std_logic;
+   
+   component DFlipFlop
+           port( D, Clk: in std_logic;
+                 Q, Qbar : OUT std_logic);  
+   end DFlipFlop
+begin
+    
+    DF1:DFlipFlop
+        port map (input,DF1_out); 
+    DF2:DFlipFlop
+        port map (DF1_out,DF2_out);
+            
+out(0)<= input xor DF1_out xor DF2_out;
+out(1)<= input xor DF2_out;
+
+end CEncoder_behav
+
+
+         
+    

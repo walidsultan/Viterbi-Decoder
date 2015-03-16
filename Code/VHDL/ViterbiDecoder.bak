@@ -1,0 +1,20 @@
+-------------------------------------- 
+-- Viterbi Decoder
+--------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ViterbiDecoder is
+    port (input: in std_logic_vector (1 downto 0);
+          clk: in std_logic_vector;
+          output: out std_logic_vector (6 downto 0)); --Traceback Depth is 7
+end ViterbiDecoder
+
+architecture ViterbiDecoder_behav of ViterbiDecoder is
+begin    
+    process()
+        
+    end process    
+    
+end ViterbiDecoder_behav
+        

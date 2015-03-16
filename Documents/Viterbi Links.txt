@@ -1,0 +1,3 @@
+http://pw1.netcom.com/~chip.f/viterbi/tutorial.html
+http://www.dsplog.com/2009/01/04/convolutional-code/
+http://www.dsplog.com/2009/01/04/viterbi/

@@ -1,0 +1,8 @@
+C:/Users/Walid/Desktop/VHDL/XOR.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/Walid/Desktop/VHDL/XOR.vhd
+Model Technology ModelSim SE vcom 6.3f Compiler 2008.02 Feb 28 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity xor_ent
+-- Compiling architecture behv1 of xor_ent
+
+} {} {}}

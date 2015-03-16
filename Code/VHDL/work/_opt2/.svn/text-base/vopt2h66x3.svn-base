@@ -1,0 +1,111 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dC:\Program Files\Modeltech_6.3f\win32
+T_opt
+Z2 VO2K8V5mQBjV2JJ7H<NOIQ2
+Z3 04 7 5 work xor_ent behv1 0
+Z4 =1-0023c302ec35-4cf91b31-3ce-1f94
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+T_opt1
+Z8 V5@MUSdfCg=C1f1NS``5Kn3
+R3
+Z9 =1-0023c302ec35-4cf93502-63-1ca4
+R5
+R6
+R7
+T_opt2
+Z10 VfI44jCLN4[SY;dG>Pe<=b0
+Z11 04 8 14 work cencoder cencoder_behav 0
+Z12 =6-0023c302ec35-4cf95817-142-8b0
+R5
+R6
+R7
+Ecencoder
+Z13 w1291409413
+Z14 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z15 dC:\Users\Walid\Desktop\VHDL
+Z16 8C:/Users/Walid/Desktop/VHDL/ConvolutionalEncoder.vhd
+Z17 FC:/Users/Walid/Desktop/VHDL/ConvolutionalEncoder.vhd
+l0
+L28
+Z18 VV@63]GgEQ`i>RdW;zJ0iF0
+Z19 OE;C;6.3f;37
+Z20 o-work work -2002 -explicit
+R6
+Acencoder_behav
+Z21 DEx32 C:\Users\Walid\Desktop\VHDL\work 9 dflipflop 0 22 A^D?RbNbT<80e>z02Q<ZK3
+R14
+Z22 DEx32 C:\Users\Walid\Desktop\VHDL\work 8 cencoder 0 22 V@63]GgEQ`i>RdW;zJ0iF0
+32
+Z23 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+l43
+L35
+Z24 VDM^SRN[H3n@ZoQWNXcQ3<2
+R19
+R20
+R6
+Edflipflop
+R13
+Z25 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R15
+R16
+R17
+l0
+L7
+Z26 VA^D?RbNbT<80e>z02Q<ZK3
+R19
+32
+R20
+R6
+Adff_behav
+R14
+R21
+32
+R23
+l13
+L12
+Z27 Vg<;DEBbSbKCRjAcdY`f`@0
+R19
+R20
+R6
+Z28 w1291409237
+Exor_ent
+Z29 w1291399865
+R25
+R15
+Z30 8C:/Users/Walid/Desktop/VHDL/XOR.vhd
+Z31 FC:/Users/Walid/Desktop/VHDL/XOR.vhd
+l0
+L12
+Z32 VaAc35B^QM8Vdm6a=_]H7@0
+R19
+32
+R20
+R6
+Abehv2
+R25
+Z33 DEx4 work 7 xor_ent 0 22 aAc35B^QM8Vdm6a=_]H7@0
+l37
+L36
+Z34 V4]I;oJ9WL]4KSHoPV>?392
+R19
+32
+Z35 Mx1 4 ieee 14 std_logic_1164
+R20
+R6
+Abehv1
+R25
+R33
+l22
+L21
+Z36 Vij9@@bJHS]Kke]cbgEYUA0
+R19
+32
+R35
+R20
+R6
